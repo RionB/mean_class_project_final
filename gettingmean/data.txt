@@ -1,0 +1,72 @@
+db.locations.save(
+{
+   name: 'Starcups',
+   address: '125 Low Street, Reading, RG6 1PS',
+   rating: 5,
+   facilities: ['Hot drinks','Food', 'Premium wifi'],
+   coords: [-0.9690884, 51.455041],
+   openingTimes: [ 
+    {
+        days: 'Monday - Friday',
+        opening: '4:00 am',
+        closing: '4:00 pm',
+        closed: false
+    },{
+        days: 'Saturday',
+        opening: '5:00 am',
+        closing: '2:00 pm',
+        closed: false
+    },{
+        days: 'Sunday',
+        closed: true
+    }]
+})
+
+db.locations.save(
+{
+   name: 'CoffeeCups',
+   address: '125 High Street, Reading, RG6 1PS',
+   rating: 3,
+   facilities: ['Food', 'Premium wifi'],
+   coords: [-0.9690884, 51.455041],
+   openingTimes: [ 
+    {
+        days: 'Monday - Friday',
+        opening: '7:00 am',
+        closing: '7:00 pm',
+        closed: false
+    },{
+        days: 'Saturday',
+        opening: '8:00 am',
+        closing: '5:00 pm',
+        closed: false
+    },{
+        days: 'Sunday',
+        closed: true
+    }]
+})
+
+
+db.locations.save(
+{
+   name: 'Starsucks',
+   address: '125 middle Street, Reading, RG6 1PS',
+   rating: 1,
+   facilities: ['Lukewarm drinks', 'Slow wifi'],
+   coords: [-0.9690884, 51.455041],
+   openingTimes: [ 
+    {
+        days: 'Monday - Friday',
+        opening: '1:00 am',
+        closing: '1:00 pm',
+        closed: false
+    },{
+        days: 'Saturday',
+        opening: '1:00 am',
+        closing: '3:00 pm',
+        closed: true
+    },{
+        days: 'Sunday',
+        closed: true
+    }]
+})
